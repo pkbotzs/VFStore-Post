@@ -2,6 +2,7 @@ import logging, asyncio, os, re, random, pytz, aiohttp, requests, string, json, 
 from datetime import date, datetime
 from config import SHORTLINK_API, SHORTLINK_URL
 from urllib.parse import quote_plus
+from pyrogram.errors import *
 from shortzy import Shortzy
 
 logger = logging.getLogger(__name__)
