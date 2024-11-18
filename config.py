@@ -33,9 +33,10 @@ CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
-# Database Information
+# Database Information 
+# mail login techbots203@gmail.com
 DB_URI = environ.get("DB_URI", "mongodb+srv://wemedia:2KyuNncW46tHNEun@autouploaderx.y5mbh.mongodb.net/?retryWrites=true&w=majority&appName=autouploaderX")
-DB_NAME = environ.get("DB_NAME", "riyaxmerge")
+DB_NAME = environ.get("DB_NAME", "autouploaderX")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
